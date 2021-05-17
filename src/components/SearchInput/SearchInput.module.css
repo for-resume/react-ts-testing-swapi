@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 50%;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border-color: #222;
+}
+
+.input:focus {
+  outline: none;
+  border-color: limegreen;
+}
+
+.label {
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  color: #222;
+}

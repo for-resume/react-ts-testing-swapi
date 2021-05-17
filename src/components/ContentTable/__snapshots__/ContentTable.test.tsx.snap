@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentTable matches snapshot if people - empty [] 1`] = `
+<DocumentFragment>
+  <table
+    class="table"
+  >
+    <tbody>
+      <tr>
+        <th>
+          Имя
+        </th>
+        <th>
+          Пол
+        </th>
+        <th>
+          Вес
+        </th>
+        <th>
+          Цвет глаз
+        </th>
+      </tr>
+      <tr>
+        <td
+          colspan="4"
+        >
+          Нет данных
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`ContentTable matches snapshot if people not empty 1`] = `
+<DocumentFragment>
+  <table
+    class="table"
+  >
+    <tbody>
+      <tr>
+        <th>
+          Имя
+        </th>
+        <th>
+          Пол
+        </th>
+        <th>
+          Вес
+        </th>
+        <th>
+          Цвет глаз
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Luke Skywalker
+        </td>
+        <td>
+          male
+        </td>
+        <td>
+          77
+        </td>
+        <td>
+          blue
+        </td>
+      </tr>
+      <tr>
+        <td>
+          C-3PO
+        </td>
+        <td>
+          n/a
+        </td>
+        <td>
+          75
+        </td>
+        <td>
+          yellow
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
